@@ -1,0 +1,341 @@
+/* body */
+.kor {font-family: 'Noto Sans KR', sans-serif; }
+.eng {font-family: 'Josefin Sans', sans-serif; }
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+li{
+    list-style: none;
+}
+/* header */
+#mypage-header{
+    position: relative;
+    width: 100%;
+    height: 425px;
+    background-color: #ed4848;
+}
+#mypage-header-title{
+    position: relative;
+    width: 40%;
+    height: 40%;        
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-30%);                
+}
+#mypage-header-text{
+    margin: 0px;
+    padding-top: 50px;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 87px;
+    color: white;
+}
+#mypage-header-subtext{
+    position: relative;        
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+/*Section  */
+
+
+#mypage-section{
+    width: 100%;
+    min-height: 1000px;
+    /* background: #f1c40f; */
+}
+[name=mypage-section-title]{
+    width: 100%;
+    height: 100px;
+    margin-top: 85px;
+    top: 10%;
+    
+}
+#mypage-section-text{
+    position: relative;             
+    width: 100%;
+    left: 50%;        
+    transform: translateX(-50%);
+    padding: 0px;
+    margin: 0px;
+    color:#34495e;
+    text-align: center;
+    font-size: 2em;
+    
+}
+#mypage-section-subtext{
+    position: relative;        
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px;
+    margin-top: 0px;
+    color:#34495e;
+    text-align: center;        
+}    
+
+/* info box css */
+#mypage-section-info{
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    
+    /* background: #e67e22; */
+}
+.myinfo-box{
+    position: relative;
+    float: left;
+    width: 32%;
+    height: 100%;
+    /* background: #2980b9;         */
+    text-align: center;
+}
+.myinfo-box:not(:last-child){
+    margin-right: 2%;
+}
+
+.myinfo-box-div h3{ 
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    left: 7%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+.myinfo-box-div span:nth-child(2){
+    display: block;
+    position: relative;
+    left: 7%;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: left;
+    
+}
+.myinfo-box-div span:nth-child(3){
+    display: block;
+    position: absolute;
+    right: 10%;
+    font-size: 30px;
+    text-align: right;
+    top:115px;
+}
+
+.myinfo-box-div button{
+    display: block;
+     margin-top: 20px;
+    position: relative;
+    left: 7%;
+    font-size: 14px;
+    
+}
+/* section table */
+#myinfo-table {
+    width: 100%;
+    height: 100%;
+}
+#myinfo-table tr{
+    width: 100%;
+    
+}
+#myinfo-table td:nth-child(2n-1){
+    position: relative;
+    left: 7%;
+    width: 25%;
+    text-align: left;
+    padding-bottom: -50px;
+    font-size: 20px;
+}
+#myinfo-table td:nth-child(2n){
+    position: relative;
+    right: 7%;
+    width: 45%;
+    text-align: right;
+    font-size: 20px;
+}
+
+/*list - air*/
+#mypage-table-list-air{
+    width: 100%;
+    line-height: 60px;
+    margin-top: 20px;
+}
+#mypage-table-list-air th, #mypage-table-list-air td{
+    color: #34495e;
+    width: 15%;
+    text-align: center;        
+}
+#mypage-table-list-air tr{
+    display:flex;        
+    border-top: 3px solid black;
+            
+}
+#mypage-table-list-air tr:not(:first-child){        
+    border-top: 1px solid black;        
+}
+
+/* list - hotel */
+
+#mypage-table-list-hotel{
+    width: 100%;
+    line-height: 60px;
+    margin-top: 20px;
+}
+#mypage-table-list-hotel th, #mypage-table-list-hotel td{
+    color: #34495e;
+    width: 15%;
+    text-align: center;        
+}
+#mypage-table-list-hotel tr{
+    display:flex;        
+    border-top: 3px solid black;
+            
+}
+#mypage-table-list-hotel tr:not(:first-child){        
+    border-top: 1px solid black;        
+}
+
+/* list - place */
+#mypage-table-list-place{
+    width: 100%;
+    line-height: 60px;
+    margin-top: 20px;
+}
+
+#mypage-table-list-place th, #mypage-table-list-place td{
+    color: #34495e;
+    width: 15%;
+    text-align: center;        
+}
+#mypage-table-list-place th:nth-child(3){
+    width: 45%;
+
+}
+#mypage-table-list-place td:nth-child(3){
+    width: 45%;
+}
+#mypage-table-list-place tr{
+    display:flex;        
+    border-top: 3px solid black;
+            
+}
+#mypage-table-list-place tr:not(:first-child){        
+    border-top: 1px solid black;        
+}
+
+
+
+/* result info */
+#mypage-result-box div:first-child{ 
+    position: relative;
+    float: left;
+    width: 16%;
+    height: 100%;
+    left: 5%;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#mypage-result-box div:nth-child(2){ 
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 100;
+    
+    
+}
+#mypage-result-box div:last-child{
+    position: relative;
+    float: left;
+    width: 49%;
+    height: 100%;    
+    padding-top: -5px;    
+    top: -3%;
+    text-align: right;
+    font-size : 65px;
+}
+
+.center{
+    display: block;
+    position: relative;
+    width: 78%;
+    top: 50%;
+    left: 60%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+/* class css */
+.bggray{
+    background-color: #ecf0f1;
+}
+.btn-all{
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+    
+    background-color: #ed4848;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mypage-wrap{
+    position: relative;
+    width: 1200px;        
+    left: 50%;
+    transform: translateX(-50%);        
+}
+.wrap-height{
+    height: 100%;
+}
+.left{
+    text-align: left;
+}
+.mypage-select-title{
+    color:#ed4848;
+    margin-left: 1%;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.mypage-select-result{
+    
+    width: 1200px;
+    height: 130px;
+    color: white;
+    background: #ed4848;        
+}
+.margin-bottom{
+    margin-top : 20px;
+    margin-bottom: 20px;
+}
+.mypage-welcome-msg{
+    font-size: 35px;
+    font-weight: 100;        
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.nim { margin-left: 10px;}
+.mypage-welcome-name{
+    font-size: 65px;
+    font-weight: bold;
+}
+.margin-top{
+    margin-top:45px;
+}
+.mypage-totalmoney{
+	font-family: 'Noto Sans KR', sans-serif;;;
+	font-weight: 800;
+}

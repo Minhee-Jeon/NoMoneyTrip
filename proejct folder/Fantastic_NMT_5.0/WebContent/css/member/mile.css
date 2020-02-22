@@ -1,0 +1,139 @@
+*{ font-family : 'Noto Sans KR', sans-serif;}
+
+	.eng {font-family: 'Josefin Sans', sans-serif; }
+    body{        
+        padding: 0px;
+        margin: 0px;
+        width: 700px;
+    }
+    header{
+        position: relative;
+        width: 720px;   
+        height: 180px;
+        background-color: #ed4848;               
+        text-align: center;
+    }
+    .mile-title-box{
+        width: 100%;
+        height: 100%;
+    }
+    .mile-title-box p {
+        position: relative;
+        /* float: left; */        
+        position: relative;
+        top:50%;
+        transform: translateY(-50%);
+        font-size: 36px;
+        margin: 0px;
+    }
+    .mile-title-box p:nth-child(1){
+        text-align: center;
+        color: white;
+    }
+    .mile-title-box p:nth-child(2){
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    .mile-title-box img{
+    float:right;}
+    section{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+        /* background-color: #edaaaa; */
+    }
+    .member-mile{
+    	width: 720px;
+    	margin: 0 auto;
+    	text-align: center;
+    }
+    .member-mile-box{
+    	margin: 30px 0 30px 100px;
+    	background: #ebebeb;
+    	width: 500px;
+    	height:200px;
+    }
+    .member-mile-box p:first-child{
+    	font-size: 20px;
+    	padding-top: 5%;
+    }
+    .member-mile-box p:nth-of-type(2){
+    	font-size: 30px;
+    }
+    .member-mile-box p:nth-of-type(2) span{
+    	font-size: 60px;
+    	font-weight: bold;
+    }
+    .btn-location {
+    	width: 720px;
+    	margin: 0 auto;
+    	text-align: center;
+    }
+    .btn-location button:first-of-type{
+    margin-left: 80px;
+    }
+    
+    #btn1, #btn2{
+    	width: 150px;
+	    height: 50px;
+	    font-size: 20px;
+	    background-color: white;
+	    color: #ed4848;
+	    border: 2px solid #ed4848;
+	    border-radius: 50px;
+	    cursor: pointer;
+	    margin: 15px 0 15px 40px;
+	    font-weight: bold;
+	    outline: none;
+    }
+    #btn1:hover, #btn2:hover{
+    	background-color: #f9c1c1;
+    }
+    article{
+        width: 100%;
+        height: 50%;
+    }
+    #mypage-accummile{
+    }
+    #mypage-usemile{
+
+    }
+    button{
+        margin-left: 5%;
+        padding: 0px;
+        width: 33%;
+        height: 10%;
+        background-color: #fff;
+        border-left: 0px;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 0px;
+        font-size: 30px;
+        
+    }
+    .list{
+    	width: 100%;
+    	line-height: 60px;
+    	margin-top:20px;
+    }
+    .list th, .list td{
+    	color: #34495e;
+    	width: 100%;
+    	text-align: center;
+    }
+    .list th:first-of-type, .list tr>td:first-of-type{
+    	margin-left: 50px;
+    }
+    .list th:last-of-type, .list tr>td:last-of-type{
+    	margin-right: 50px;
+    }
+    .list tr{
+    display:flex;
+    border-top: 3px solid #34495e;
+    }
+    .list tr:not(:first-child){
+    border-top: 1px solid #34495e;
+    }
+    .rest-div{ width: 100%; height:30px;}

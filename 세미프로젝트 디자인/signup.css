@@ -1,0 +1,86 @@
+.outer{
+    background: #ed4848;
+    background-size: 100%;
+    height:425px;
+    position: relative;
+}
+.maintitle{
+    margin-top: 100px;
+    width: 584px;
+    position: absolute;
+    left: 40%;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans',sans-serif;
+}
+.maintitle h1{
+    font-size:87px;
+}
+.maintitle p{
+    font-size: 20px;
+}   
+section{
+    font-family:'Noto Sans KR',sans-serif ;
+
+}
+
+.outsection{
+    max-width: 100%;
+    font-family:'Noto Sans KR',sans-serif ;
+    position: relative;
+}
+.insection{
+    position: absolute;
+    left:40%;
+    max-width: 1200px;
+}
+.insection input{
+    width:580px;
+    height:85px;
+    background-color: #EBEBEB;
+    border:none;
+
+}
+.formtitle{
+    text-align: center;
+    margin-top: 80px;
+}
+.servetitle{
+    /* margin-left: 12%; */
+    font-size: 16px;
+}
+p.title{
+    /* margin-left: 17%; */
+    font-size: 30px;
+    font:bold;
+}
+.pclass{
+    font-size:20px;
+}
+select::-ms-expand{
+    display:none;
+}
+#genderspan{
+    margin-left: 260px;
+}
+input[id=birthday1],input[id=birthday2],input[id=birthday3]{
+    width:180px;
+}
+input[id=birthday2],input[id=birthday3]{
+    margin-left: 10px;
+}
+.outendtitle{
+    width:584px;
+    height: 85px;
+    text-align: center;
+}
+.outendtitle input{
+    padding-top: 25px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #ed4848;
+}
+p.checkmsg{
+    color:red;
+}
